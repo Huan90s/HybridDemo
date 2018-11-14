@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion project.minSdkVersion
+        targetSdkVersion project.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api "com.android.support:appcompat-v7:${project.supportLibVersion}"
+    api "com.android.support:recyclerview-v7:${project.supportLibVersion}"
+    api "com.alibaba:arouter-api:${project.arouterApiVersion}"
+    api 'com.squareup.picasso:picasso:2.71828'
+    annotationProcessor "com.alibaba:arouter-compiler:${project.arouterCompilVersion}"
+
+}

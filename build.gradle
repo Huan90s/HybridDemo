@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "$rootDir/rnmodule/node_modules/react-native/android"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+subprojects {
+    ext {
+        compileSdkVersion = 28
+        minSdkVersion = 16
+        targetSdkVersion = 28
+        supportLibVersion = "28.0.0"
+        arouterApiVersion = "1.3.1"
+        arouterCompilVersion = "1.1.4"
+        fastjsonLibVersion = "1.1.46.android"
+
+    }
+}
