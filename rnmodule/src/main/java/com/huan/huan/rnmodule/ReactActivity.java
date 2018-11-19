@@ -23,9 +23,10 @@ public class ReactActivity extends AppCompatActivity implements DefaultHardwareB
         mReactRootView = new ReactRootView(this);
         mReactInstanceManager = ReactInstanceManager.builder()
                 .setApplication(getApplication())
-                .setBundleAssetName("index.android.bundle")
+                .setBundleAssetName("index.bundle")
                 .setJSMainModulePath("index")
                 .addPackage(new MainReactPackage())
+                .addPackage(new CameraPackage())
                 .setUseDeveloperSupport(BuildConfig.DEBUG)
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();

@@ -3,10 +3,18 @@ package com.huan.huan.architecture;
 import android.app.Application;
 
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.facebook.react.ReactApplication;
+import com.facebook.react.ReactNativeHost;
+import com.facebook.react.ReactPackage;
+import com.facebook.react.shell.MainReactPackage;
 import com.huan.huan.commonlibrary.router.PathConst;
+import com.huan.huan.rnmodule.ReactService;
 import com.huan.huan.weexlibrary.WeexService;
 
-public class App extends Application {
+import java.util.Arrays;
+import java.util.List;
+
+public class App extends Application implements ReactApplication {
 
     @Override
     public void onCreate() {
@@ -24,4 +32,14 @@ public class App extends Application {
 
 
     }
+
+    @Override
+    public ReactNativeHost getReactNativeHost() {
+        ReactService reactService = (ReactService) ARouter.getInstance().build(PathConst.REACT_SERVICE).navigation();
+        return reactService.getReactNativeHost();
+    }
+
+
+
+
 }

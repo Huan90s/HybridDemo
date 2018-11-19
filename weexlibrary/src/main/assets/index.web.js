@@ -19421,7 +19421,7 @@ var Component = __webpack_require__(2)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhanghuanhuan/Documents/weex-demo/src/components/HelloWorld.vue"
+Component.options.__file = "/Users/zhanghuanhuan/Documents/github/awesome-project/src/components/HelloWorld.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] HelloWorld.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19432,9 +19432,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-5b3dd9b0", Component.options)
+    hotAPI.createRecord("data-v-2f1fbdb0", Component.options)
   } else {
-    hotAPI.reload("data-v-5b3dd9b0", Component.options)
+    hotAPI.reload("data-v-2f1fbdb0", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -19460,7 +19460,7 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-5b3dd9b0", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-2f1fbdb0", module.exports)
   }
 }
 
@@ -19504,11 +19504,11 @@ var Component = __webpack_require__(2)(
   /* styles */
   injectStyle,
   /* scopeId */
-  "data-v-9962552e",
+  "data-v-a10e8d2e",
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "/Users/zhanghuanhuan/Documents/weex-demo/src/index.vue"
+Component.options.__file = "/Users/zhanghuanhuan/Documents/github/awesome-project/src/index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19519,9 +19519,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-9962552e", Component.options)
+    hotAPI.createRecord("data-v-a10e8d2e", Component.options)
   } else {
-    hotAPI.reload("data-v-9962552e", Component.options)
+    hotAPI.reload("data-v-a10e8d2e", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -19542,13 +19542,13 @@ var content = __webpack_require__(13);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(15)("2e8ea098", content, false, {});
+var update = __webpack_require__(15)("0263773f", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-9962552e\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./index.vue", function() {
-     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-9962552e\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./index.vue");
+   module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a10e8d2e\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./index.vue", function() {
+     var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-a10e8d2e\",\"scoped\":true,\"hasInlineConfig\":true}!../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./index.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -19566,7 +19566,7 @@ exports = module.exports = __webpack_require__(14)(false);
 
 
 // module
-exports.push([module.i, "\n.wrapper[data-v-9962552e] {\n  justify-content: center;\n  align-items: center;\n}\n.logo[data-v-9962552e] {\n  width: 5.65333rem;\n  height: 2.66667rem;\n}\n.greeting[data-v-9962552e] {\n  text-align: center;\n  margin-top: 0.93333rem;\n  font-size: 0.66667rem;\n  color: #41B883;\n}\n.message[data-v-9962552e] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n", ""]);
+exports.push([module.i, "\n.wrapper[data-v-a10e8d2e] {\n  justify-content: center;\n  align-items: center;\n}\n.logo[data-v-a10e8d2e] {\n  width: 5.65333rem;\n  height: 2.66667rem;\n}\n.greeting[data-v-a10e8d2e] {\n  text-align: center;\n  margin-top: 0.93333rem;\n  font-size: 0.66667rem;\n  color: #41b883;\n}\n.message[data-v-a10e8d2e] {\n  margin: 0.4rem;\n  font-size: 0.42667rem;\n  color: #727272;\n}\n.camera[data-v-a10e8d2e] {\n  margin-top: 0.66667rem;\n  font-size: 0.53333rem;\n  color:blue\n}\n", ""]);
 
 // exports
 
@@ -19932,16 +19932,31 @@ var _HelloWorld2 = _interopRequireDefault(_HelloWorld);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld: _HelloWorld2.default
   },
   data: function data() {
     return {
-      logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
+      logo: "https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png"
     };
+  },
+
+
+  methods: {
+    reverseMessage: function reverseMessage() {
+      console.log('----------');
+      weex.requireModule('CameraModule').printLog("I am a weex Module");
+    }
   }
 }; //
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -19972,13 +19987,31 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("The environment is ready!")]), _vm._v(" "), _c('HelloWorld')], 1)
+  }, [_vm._v("The environment is ready!")]), _vm._v(" "), _c('HelloWorld'), _vm._v(" "), _c('div', {
+    staticClass: " weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  }, [_c('p', {
+    staticClass: "camera weex-el weex-text",
+    attrs: {
+      "weex-type": "text",
+      "data-evt-click": ""
+    },
+    on: {
+      "click": _vm.$stopOuterA,
+      "weex$tap": function($event) {
+        $event.stopPropagation();
+        return _vm.reverseMessage($event)
+      }
+    }
+  }, [_vm._v("调用相机")])])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-9962552e", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-a10e8d2e", module.exports)
   }
 }
 

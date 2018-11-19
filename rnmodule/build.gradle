@@ -30,6 +30,6 @@ dependencies {
     api project(':commonlibrary')
 
     annotationProcessor "com.alibaba:arouter-compiler:${project.arouterCompilVersion}"
-    implementation "com.facebook.react:react-native:+"// From node_modules
+    api "com.facebook.react:react-native:+"// From node_modules
 
 }

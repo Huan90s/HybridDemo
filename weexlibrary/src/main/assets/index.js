@@ -85,7 +85,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zhanghuanhuan/Documents/weex-demo/src/components/HelloWorld.vue"
+__vue_options__.__file = "/Users/zhanghuanhuan/Documents/github/awesome-project/src/components/HelloWorld.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -156,7 +156,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/zhanghuanhuan/Documents/weex-demo/src/index.vue"
+__vue_options__.__file = "/Users/zhanghuanhuan/Documents/github/awesome-project/src/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-2964abc9"
@@ -190,7 +190,7 @@ module.exports = {
     "textAlign": "center",
     "marginTop": "70",
     "fontSize": "50",
-    "color": "#41B883"
+    "color": "#41b883"
   },
   "message": {
     "marginTop": "30",
@@ -199,6 +199,11 @@ module.exports = {
     "marginLeft": "30",
     "fontSize": "32",
     "color": "#727272"
+  },
+  "camera": {
+    "marginTop": "50",
+    "fontSize": "40",
+    "color": "#0000FF"
   }
 }
 
@@ -220,16 +225,31 @@ var _HelloWorld2 = _interopRequireDefault(_HelloWorld);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld: _HelloWorld2.default
   },
   data: function data() {
     return {
-      logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
+      logo: "https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png"
     };
+  },
+
+
+  methods: {
+    reverseMessage: function reverseMessage() {
+      console.log('----------');
+      weex.requireModule('CameraModule').takePhoto();
+    }
   }
 }; //
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -252,7 +272,12 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }), _c('text', {
     staticClass: ["greeting"]
-  }, [_vm._v("The environment is ready!")]), _c('HelloWorld')], 1)
+  }, [_vm._v("The environment is ready!")]), _c('HelloWorld'), _c('div', [_c('text', {
+    staticClass: ["camera"],
+    on: {
+      "click": _vm.reverseMessage
+    }
+  }, [_vm._v("调用相机")])])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 
