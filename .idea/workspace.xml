@@ -10,43 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93c5ee1b-71cc-4408-b6b5-5d1bb038ca42" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/commonlibrary/src/main/java/com/huan/huan/commonlibrary/router/IReactProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/CameraPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/ReactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/module/CameraModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/module/CameraModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/huan/huan/architecture/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/huan/huan/architecture/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonlibrary/src/main/java/com/huan/huan/commonlibrary/router/PathConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/commonlibrary/src/main/java/com/huan/huan/commonlibrary/router/PathConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nativemodule/nativemodule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nativemodule/nativemodule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rnmodule/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/node_modules/.cache/@babel/register/.babel.7.1.6.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/rnmodule/node_modules/.cache/@babel/register/.babel.7.1.6.development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/shell/MainReactPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/rnmodule/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/shell/MainReactPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/rnmodule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rnmodule/rnmodule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/src/main/assets/index.android.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/ReactActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/ReactActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rnmodule/src/main/js/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/src/main/assets/components/HelloWorld.js" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/src/main/assets/components/HelloWorld.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/src/main/assets/components/HelloWorld.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/src/main/assets/components/HelloWorld.web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/src/main/assets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/src/main/assets/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/src/main/assets/index.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/src/main/assets/index.web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/WeexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/WeexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weexlibrary/weexlibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weexlibrary/weexlibrary.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +44,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rnmodule/src/main/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -118,6 +83,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CameraModule.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/module/CameraModule.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -146,15 +120,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
               <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeexService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/WeexService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -6278,7 +6243,6 @@
       <list>
         <option value="$PROJECT_DIR$/nativemodule/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/huan/huan/architecture/MainActivity.java" />
         <option value="$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/ImageAdapter.java" />
         <option value="$PROJECT_DIR$/weexlibrary/src/main/java/com/huan/huan/weexlibrary/WeexService.java" />
@@ -6294,6 +6258,7 @@
         <option value="$PROJECT_DIR$/rnmodule/src/main/js/index.js" />
         <option value="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/module/CameraModule.java" />
         <option value="$PROJECT_DIR$/rnmodule/src/main/java/com/huan/huan/rnmodule/ReactActivity.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -6353,11 +6318,6 @@
             <path>
               <item name="HybridDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="HybridDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="HybridDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HybridDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -6513,6 +6473,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info id="Build Variants" order="2" side_tool="true" />
@@ -6797,13 +6758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -7061,6 +7015,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
