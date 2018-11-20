@@ -20,13 +20,6 @@ public class CameraModule extends WXModule {
 
     @JSMethod(uiThread = true)
     public void takePhoto() {
-//        Intent scanCode = new Intent(mWXSDKInstance.getContext(), CaptureActivity.class);
-//        ((WeexActivity)mWXSDKInstance.getContext()).startActivityForResult(scanCode, 1);
         ARouter.getInstance().build(PathConst.ZXING_ACTIVITY).navigation((WeexActivity)mWXSDKInstance.getContext(), 1);
-
-//        Intent takePhotoIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);//用来打开相机的Intent
-//        if (takePhotoIntent.resolveActivity(mWXSDKInstance.getContext().getPackageManager()) != null) {//这句作用是如果没有相机则该应用不会闪退，要是不加这句则当系统没有相机应用的时候该应用会闪退
-//            mWXSDKInstance.getContext().startActivity(takePhotoIntent);//启动相机
-//        }
     }
 }
