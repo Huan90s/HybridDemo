@@ -277,7 +277,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.reverseMessage
     }
-  }, [_vm._v("调用相机")])])], 1)
+  }, [_vm._v("扫描二维码")])])], 1)
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 

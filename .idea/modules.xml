@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/nativemodule/nativemodule.iml" filepath="$PROJECT_DIR$/nativemodule/nativemodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/rnmodule/rnmodule.iml" filepath="$PROJECT_DIR$/rnmodule/rnmodule.iml" />
       <module fileurl="file://$PROJECT_DIR$/weexlibrary/weexlibrary.iml" filepath="$PROJECT_DIR$/weexlibrary/weexlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
     </modules>
   </component>
 </project>

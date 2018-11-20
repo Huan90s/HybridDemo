@@ -1,1 +1,1 @@
-include ':app', ':weexlibrary', ':commonlibrary', ':rnmodule', ':nativemodule'
+include ':app', ':weexlibrary', ':commonlibrary', ':rnmodule', ':nativemodule', ':zxing'

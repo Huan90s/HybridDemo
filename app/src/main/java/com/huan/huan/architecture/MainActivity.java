@@ -1,5 +1,7 @@
 package com.huan.huan.architecture;
 
+import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
@@ -7,15 +9,20 @@ import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.huan.huan.commonlibrary.router.PathConst;
+import com.tbruyelle.rxpermissions2.RxPermissions;
+
+import io.reactivex.functions.Consumer;
 
 public class MainActivity extends AppCompatActivity {
 
     private final int OVERLAY_PERMISSION_REQ_CODE = 1;  // 任写一个值
 
 
+    @SuppressLint("CheckResult")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +36,20 @@ public class MainActivity extends AppCompatActivity {
 //                startActivityForResult(intent, OVERLAY_PERMISSION_REQ_CODE);
 //            }
 //        }
+
+        RxPermissions rxPermissions = new RxPermissions(this); // where this is an Activity or Fragment instance
+        rxPermissions
+                .request(Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                .subscribe(granted -> {
+                    if (granted) { // Always true pre-M
+//                        // I can control the camera now
+                    } else {
+//                            finish();
+                        // Oups permission denied
+                        Toast.makeText(MainActivity.this, "没有相机权限", Toast.LENGTH_LONG).show();
+                    }
+
+                }, Throwable::printStackTrace);
 
     }
 

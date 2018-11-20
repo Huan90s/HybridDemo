@@ -11,4 +11,8 @@ public class PathConst {
 
     public static final String NATIVE_ACTIVITY = "/native/NativeActivity";
 
+    public static final String ZXING_SERVICE = "/qrcodeq/ZXING_SERVICE";
+
+    public static final String ZXING_ACTIVITY = "/qrcodeq/Capture_Activity";
+
 }

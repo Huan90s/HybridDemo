@@ -30,7 +30,7 @@ export default class App extends Component {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
 
-        <Text onPress={this._toast} style={styles.welcome}>调用相机</Text>
+        <Text onPress={this._toast} style={styles.welcome}>扫描二维码</Text>
 
       </View>
     );

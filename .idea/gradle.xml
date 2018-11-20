@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/nativemodule" />
             <option value="$PROJECT_DIR$/rnmodule" />
             <option value="$PROJECT_DIR$/weexlibrary" />
+            <option value="$PROJECT_DIR$/zxing" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion project.minSdkVersion
+        targetSdkVersion project.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':commonlibrary')
+    annotationProcessor "com.alibaba:arouter-compiler:${project.arouterCompilVersion}"
+    implementation files('src/main/lib/zxing-android-core.jar')
+    implementation files('src/main/lib/zxing-core.jar')
+}
+
+
+//dependencies {
+//    implementation files('src/main/lib/zxing-android-core.jar')
+//    implementation files('src/main/lib/zxing-core.jar')
+//}

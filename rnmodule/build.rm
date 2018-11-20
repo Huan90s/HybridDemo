@@ -1,0 +1,4 @@
+
+打包js命令
+
+react-native bundle --platform android --dev false --entry-file src/main/js/index.js --bundle-output src/main/assets/index.bundle --assets-dest src/main/res/
